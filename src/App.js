@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import AddTaskForm from "./components/functions/AddTaskForm";
+import AddTask from "./components/functions/AddTask";
 import Updatelist from "./components/functions/Updatelist";
 import ToDo from "./components/functions/ToDo";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -72,7 +72,7 @@ function App() {
 			) : (
 				// add new element to list
 				<div className="add">
-					<AddTaskForm
+					<AddTask
 						newTask={newTask}
 						setNewTask={setNewTask}
 						addTask={addTask}

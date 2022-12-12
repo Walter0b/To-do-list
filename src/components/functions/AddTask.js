@@ -1,7 +1,7 @@
 import React from "react";
 
 // create todo list
-const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
+const AddTask = ({ newTask, setNewTask, addTask }) => {
 	return (
 		<div className="Add">
 			<div className="row">
@@ -24,4 +24,4 @@ const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
 	);
 };
 
-export default AddTaskForm;
+export default AddTask;
